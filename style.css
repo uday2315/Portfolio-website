@@ -102,6 +102,7 @@ button {
     height: 40px;
     background-color: rgb(93, 143, 167);
     color: aliceblue;
+    border: none;
     border-radius: 8%;
     font-size: large;
     transition: background-color 0.3s;
@@ -144,15 +145,24 @@ button:hover{
 
     .upper_cloud img {
         position: relative;
-        width: 70%;
-        left: 90px;
+        width: 50%;
+        left: 190px;
+        bottom: 20px;
 
+    }
+
+    .heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .heading h2 {
+        font-size: 1.5rem;
     }
 
     .middle_cloud img {
         position: relative;
-        width: 70%;
-        right: 90px;
+        width: 50%;
+        right: 190px;
 
     }
     .parent {

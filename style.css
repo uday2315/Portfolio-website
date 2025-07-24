@@ -138,6 +138,23 @@ button:hover{
 }
 
 @media (max-width: 768px) {
+    .mountain img {
+        width: 60%;
+    }
+
+    .upper_cloud img {
+        position: relative;
+        width: 70%;
+        left: 90px;
+
+    }
+
+    .middle_cloud img {
+        position: relative;
+        width: 70%;
+        right: 90px;
+
+    }
     .parent {
         display: flex;
         flex-direction: column;
